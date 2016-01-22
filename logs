@@ -1,0 +1,400 @@
+GATLING_HOME is set to /mnt/workwps/gatling-charts-highcharts-bundle-2.1.7
+Choose a simulation number:
+     [0] cnblogsCase.MueasSimulation
+     [1] mueasCase.MueasSimulation
+Select simulation id (default is 'mueassimulation'). Accepted characters are a-z, A-Z, 0-9, - and _
+Select run description (optional)
+Simulation cnblogsCase.MueasSimulation started...
+11:13:17.834 [INFO ] i.g.h.a.HttpEngine - Sending request=Redirect Login uri=http://localhost:8080/: scenario=Search mueas home page, userId=5321994049201785607-0
+11:13:17.846 [INFO ] i.g.h.a.HttpEngine - Sending request=Redirect Login uri=http://localhost:8080/: scenario=Search mueas home page, userId=5321994049201785607-1
+11:13:17.885 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Redirect Login: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-0,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=8cde643f-86f0-428d-9afb-902226382a60; path=/; HTTPOnly,true,false,1453432397881)))),1453432397805,0,OK,List(),<function1>)
+=========================
+HTTP request:
+GET http://localhost:8080/
+headers=
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+=========================
+HTTP response:
+status=
+302 Found
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Set-Cookie: [SESSION=8cde643f-86f0-428d-9afb-902226382a60; Path=/; HttpOnly]
+Location: [http://localhost:8080/login]
+Content-Length: [0]
+Date: [Fri, 22 Jan 2016 03:13:17 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:13:17.885 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Redirect Login: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-1,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=ab596811-12aa-4ba4-a685-142c33d4777a; path=/; HTTPOnly,true,false,1453432397875)))),1453432397808,0,OK,List(),<function1>)
+=========================
+HTTP request:
+GET http://localhost:8080/
+headers=
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+=========================
+HTTP response:
+status=
+302 Found
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Set-Cookie: [SESSION=ab596811-12aa-4ba4-a685-142c33d4777a; Path=/; HttpOnly]
+Location: [http://localhost:8080/login]
+Content-Length: [0]
+Date: [Fri, 22 Jan 2016 03:13:17 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:13:17.889 [INFO ] i.g.h.a.HttpEngine - Sending request=Redirect Login uri=http://localhost:8080/login: scenario=Search mueas home page, userId=5321994049201785607-1
+11:13:17.908 [INFO ] i.g.h.a.HttpEngine - Sending request=Redirect Login uri=http://localhost:8080/login: scenario=Search mueas home page, userId=5321994049201785607-0
+11:13:17.942 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Redirect Login Redirect 1: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-0,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=8cde643f-86f0-428d-9afb-902226382a60; path=/; HTTPOnly,true,false,1453432397940))), gatling.http.referer -> http://localhost:8080/login, post_url -> http://localhost:8080/login),1453432397805,0,OK,List(),<function1>)
+=========================
+HTTP request:
+GET http://localhost:8080/login
+headers=
+Cookie: SESSION=8cde643f-86f0-428d-9afb-902226382a60
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Content-Type: [text/html;charset=UTF-8]
+Content-Language: [en-US]
+Content-Length: [1199]
+Date: [Fri, 22 Jan 2016 03:13:17 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:13:17.953 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Redirect Login Redirect 1: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-1,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=ab596811-12aa-4ba4-a685-142c33d4777a; path=/; HTTPOnly,true,false,1453432397952))), gatling.http.referer -> http://localhost:8080/login, post_url -> http://localhost:8080/login),1453432397808,0,OK,List(),<function1>)
+=========================
+HTTP request:
+GET http://localhost:8080/login
+headers=
+Cookie: SESSION=ab596811-12aa-4ba4-a685-142c33d4777a
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Content-Type: [text/html;charset=UTF-8]
+Content-Language: [en-US]
+Content-Length: [1199]
+Date: [Fri, 22 Jan 2016 03:13:17 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+
+================================================================================
+2016-01-22 11:13:17                                           0s elapsed
+---- Search mueas home page ----------------------------------------------------
+[                                                                          ]  0%
+          waiting: 2      / active: 0      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=0      KO=0     )
+
+================================================================================
+
+
+================================================================================
+2016-01-22 11:13:22                                           5s elapsed
+---- Search mueas home page ----------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 2      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=4      KO=0     )
+> Redirect Login                                           (OK=2      KO=0     )
+> Redirect Login Redirect 1                                (OK=2      KO=0     )
+================================================================================
+
+
+================================================================================
+2016-01-22 11:13:27                                          10s elapsed
+---- Search mueas home page ----------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 2      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=4      KO=0     )
+> Redirect Login                                           (OK=2      KO=0     )
+> Redirect Login Redirect 1                                (OK=2      KO=0     )
+================================================================================
+
+11:13:27.933 [INFO ] i.g.h.a.HttpEngine - Sending request=Try login uri=http://localhost:8080/login: scenario=Search mueas home page, userId=5321994049201785607-1
+11:13:27.949 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Try login: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-1,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=ab596811-12aa-4ba4-a685-142c33d4777a; path=/; HTTPOnly,true,false,1453432397952))), gatling.http.referer -> http://localhost:8080/login, post_url -> http://localhost:8080/login),1453432397808,14,OK,List(),<function1>)
+=========================
+HTTP request:
+POST http://localhost:8080/login
+headers=
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:8080/login
+Cookie: SESSION=ab596811-12aa-4ba4-a685-142c33d4777a
+Content-Length: 31
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+params=
+username: shihuc
+password: 123456
+=========================
+HTTP response:
+status=
+302 Found
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Set-Cookie: [remember-me=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/]
+Location: [http://localhost:8080/login]
+Content-Length: [0]
+Date: [Fri, 22 Jan 2016 03:13:27 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:13:27.952 [INFO ] i.g.h.a.HttpEngine - Sending request=Try login uri=http://localhost:8080/login: scenario=Search mueas home page, userId=5321994049201785607-0
+11:13:27.963 [INFO ] i.g.h.a.HttpEngine - Sending request=Try login uri=http://localhost:8080/login: scenario=Search mueas home page, userId=5321994049201785607-1
+11:13:27.967 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Try login: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-0,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=8cde643f-86f0-428d-9afb-902226382a60; path=/; HTTPOnly,true,false,1453432397940))), gatling.http.referer -> http://localhost:8080/login, post_url -> http://localhost:8080/login),1453432397805,19,OK,List(),<function1>)
+=========================
+HTTP request:
+POST http://localhost:8080/login
+headers=
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:8080/login
+Cookie: SESSION=8cde643f-86f0-428d-9afb-902226382a60
+Content-Length: 31
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+params=
+username: shihuc
+password: 123456
+=========================
+HTTP response:
+status=
+302 Found
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Set-Cookie: [remember-me=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/]
+Location: [http://localhost:8080/login]
+Content-Length: [0]
+Date: [Fri, 22 Jan 2016 03:13:27 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:13:27.971 [INFO ] i.g.h.a.HttpEngine - Sending request=Try login uri=http://localhost:8080/login: scenario=Search mueas home page, userId=5321994049201785607-0
+11:13:27.982 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Try login Redirect 1: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-0,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=8cde643f-86f0-428d-9afb-902226382a60; path=/; HTTPOnly,true,false,1453432397940))), gatling.http.referer -> http://localhost:8080/login, post_url -> http://localhost:8080/login),1453432397805,19,OK,List(),<function1>)
+=========================
+HTTP request:
+GET http://localhost:8080/login
+headers=
+Referer: http://localhost:8080/login
+Cookie: SESSION=8cde643f-86f0-428d-9afb-902226382a60
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Content-Type: [text/html;charset=UTF-8]
+Content-Language: [en-US]
+Content-Length: [1279]
+Date: [Fri, 22 Jan 2016 03:13:27 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:13:27.986 [TRACE] i.g.h.a.AsyncHandlerActor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Try login Redirect 1: OK 
+=========================
+Session:
+Session(Search mueas home page,5321994049201785607-1,Map(gatling.http.cookies -> CookieJar(Map(CookieKey(session,localhost,/) -> StoredCookie(SESSION=ab596811-12aa-4ba4-a685-142c33d4777a; path=/; HTTPOnly,true,false,1453432397952))), gatling.http.referer -> http://localhost:8080/login, post_url -> http://localhost:8080/login),1453432397808,14,OK,List(),<function1>)
+=========================
+HTTP request:
+GET http://localhost:8080/login
+headers=
+Referer: http://localhost:8080/login
+Cookie: SESSION=ab596811-12aa-4ba4-a685-142c33d4777a
+Connection: keep-alive
+Host: localhost:8080
+Accept: */*
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Server: [Apache-Coyote/1.1]
+X-Content-Type-Options: [nosniff]
+X-XSS-Protection: [1; mode=block]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+Expires: [0]
+X-Frame-Options: [DENY]
+Content-Type: [text/html;charset=UTF-8]
+Content-Language: [en-US]
+Content-Length: [1279]
+Date: [Fri, 22 Jan 2016 03:13:27 GMT]
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+
+================================================================================
+2016-01-22 11:13:32                                          15s elapsed
+---- Search mueas home page ----------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 2      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=0     )
+> Redirect Login                                           (OK=2      KO=0     )
+> Redirect Login Redirect 1                                (OK=2      KO=0     )
+> Try login                                                (OK=2      KO=0     )
+> Try login Redirect 1                                     (OK=2      KO=0     )
+================================================================================
+
+
+================================================================================
+2016-01-22 11:13:37                                          20s elapsed
+---- Search mueas home page ----------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 2      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=0     )
+> Redirect Login                                           (OK=2      KO=0     )
+> Redirect Login Redirect 1                                (OK=2      KO=0     )
+> Try login                                                (OK=2      KO=0     )
+> Try login Redirect 1                                     (OK=2      KO=0     )
+================================================================================
+
+
+================================================================================
+2016-01-22 11:13:37                                          20s elapsed
+---- Search mueas home page ----------------------------------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:2     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=0     )
+> Redirect Login                                           (OK=2      KO=0     )
+> Redirect Login Redirect 1                                (OK=2      KO=0     )
+> Try login                                                (OK=2      KO=0     )
+> Try login Redirect 1                                     (OK=2      KO=0     )
+================================================================================
+
+Simulation finished
+Parsing log file(s)...
+Parsing log file(s) done
+Generating reports...
+
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                          8 (OK=8      KO=0     )
+> min response time                                      8 (OK=8      KO=-     )
+> max response time                                     26 (OK=26     KO=-     )
+> mean response time                                    13 (OK=13     KO=-     )
+> std deviation                                          6 (OK=6      KO=-     )
+> response time 50th percentile                         11 (OK=11     KO=-     )
+> response time 75th percentile                         17 (OK=17     KO=-     )
+> mean requests/sec                                  0.396 (OK=0.396  KO=-     )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                             8 (100%)
+> 800 ms < t < 1200 ms                                   0 (  0%)
+> t > 1200 ms                                            0 (  0%)
+> failed                                                 0 (  0%)
+================================================================================
+
+Reports generated in 0s.
+Please open the following file: /mnt/workwps/gatling-charts-highcharts-bundle-2.1.7/results/mueassimulation-1453432397764/index.html
